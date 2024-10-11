@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "Roland_91_"
+    },
+    "motivations": {
+      "@value": "I am just a fan. "
+    },
+    "objectives": {
+      "@value": "Cardano Governance is in its infancy, mistakes will be made, money will be spent poorly and lessons will be learned the hard way. \n\nMy goal over the next 30-40 years will be to put Australia onto a blockchain. I see that this world is quickly dividing once more and \"the great peace\" has ended. Our systems MUST trend towards decentralisation, and MUST have the option for anonymity, because without these core concepts a nation-state can heavily influence your protocol. If China went offline, would your crypto survive? If America went offline, would your crypto survive?  Would USD?\n\nBy moving Australia to blockchain specifically Midnight  (as I believe that midnight is what was promised for Cardano). It appears that midnight will borrow the governance from Cardano as well as its security - so the place to begin is here.\n\n"
+    },
+    "paymentAddress": {
+      "@value": "addr1q8s5g2gfvdcyy97xu5r3puz6760d0upmlu8dyfjdv3c0n3858eskshm2l8mctmyp7zfy3msfd7hksv4za95sge9c704q9z8mk3"
+    },
+    "qualifications": {
+      "@value": "What role in the real world could possibly relate to becoming a decentralised representative of a global governance experiment? \n\nI have grown up in Australia and completed an English Teaching degree, I have travelled the world twice. I have been here since the beginning, and wrote the first FAQ for the Cardano subreddit back when it had about 6000 members. I remember the crazy heady days of making more money than anyone in my family had ever seen. I was staking through the ITN and glued to my monitor as my investment printed 11% returns. \n\n\n\n\nbut no I am not a systems analyst of Megacorps 'R' Us with 30 years experience. nor am I a politician. I simply think I see what CH is doing, I see the world he believes will come about, and I see the steps he has taken to make sure it cannot be taken away from us. I would like to be part of the crew, rather than a passenger on this ship of the dammed he has built for us.  "
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Twitter"
+        },
+        "uri": {
+          "@value": "https://x.com/roland_91_"
+        }
+      }
+    ]
+  }
+}
